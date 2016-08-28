@@ -1,4 +1,4 @@
-// ANNOT
+// Annot.
 
 function intro(annot.io) {
 

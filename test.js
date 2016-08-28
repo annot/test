@@ -19,4 +19,4 @@ function intro(annot.io) {
 
 }
 
-//eof
+//EOF

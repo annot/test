@@ -20,5 +20,3 @@ function intro(annot.io) {
 }
 
 // EOF
-
-bar

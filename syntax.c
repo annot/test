@@ -17,7 +17,9 @@
    } bits __attribute__((packed));
 };
 #define FP_DECL_Q(X)		_FP_DECL(4,X)
-#define FP_UNPACK_RAW_Q(X,val)	_FP_UNPACK_RAW_4(Q,X,val)
+#define FP_UNPACK_RAW_Q(X,val)	_FP_UNPACK_RAW_4(Q,X,val) /* hi,
+this is a
+  weird one*/
 #define FP_UNPACK_RAW_QP(X,val)	_FP_UNPACK_RAW_4_P(Q,X,val)
 #define FP_PACK_RAW_Q(val,X)	_FP_PACK_RAW_4(Q,val,X) // inline
 #define FP_PACK_RAW_QP(val,X)		\

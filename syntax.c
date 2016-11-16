@@ -1,4 +1,4 @@
-#if __BYTE_ORDER == __BIG_ENDIAN
+#if __BYTE_ORDER == __BIG_ENDIAN  // another foo
       unsigned sign : 1;
       unsigned exp : _FP_EXPBITS_Q;
       unsigned long frac3 : _FP_FRACBITS_Q - (_FP_IMPLBIT_Q != 0)-(_FP_W_TYPE_SIZE * 3);

@@ -4,4 +4,4 @@ function intro() {
     foo()
 }
 
-// EOF
+// FOO
